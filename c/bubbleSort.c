@@ -1,7 +1,6 @@
 #include <stdio.h> 
  
-void swapElements(int *a, int *b) //Swap values
-{ 
+void swapElements(int *a, int *b) {  //Swap values
     int temp = *a; 
     *a = *b; 
     *b = temp; 
@@ -9,7 +8,6 @@ void swapElements(int *a, int *b) //Swap values
    
 
 void bubbleSort(int array[], int n){ //Bubble sort function
- 
    int i, j; 
    for (i = 0; i < n-1; i++) {
    	
@@ -23,8 +21,7 @@ void bubbleSort(int array[], int n){ //Bubble sort function
        
 } 
    
-void printArray(int array[], int size) //Print elements in the array
-{ 
+void printArray(int array[], int size)  {  //Print elements in the array
     int i; 
     for (i=0; i < size; i++){
     	printf("%d ", array[i]); 
