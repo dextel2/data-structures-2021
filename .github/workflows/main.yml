@@ -2,7 +2,7 @@ name: Update README.md
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -47,7 +47,7 @@ jobs:
           mv tmp.md README.md
       - name: Commit report
         run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'jsmith@example.com'
+          git config --global user.name 'Yash Karanke'
+          git config --global user.email 'dex.papa@example.com'
           git commit -am "Update README.md"
           git push
