@@ -19,4 +19,3 @@
 - `Commit` and `push` the new branch created
 - Apply for `pull request`
 
-# Algorithms and languages used
