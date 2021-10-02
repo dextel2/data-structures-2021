@@ -9,7 +9,6 @@
 6. JavaScript
 7. Python
 8. Rust
-9. Python
 <!-- Languages end here -->
 
 *Good contributions are always welcome :)*
