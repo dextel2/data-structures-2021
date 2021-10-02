@@ -20,5 +20,3 @@
 - Apply for `pull request`
 
 # Algorithms and languages used
-
-Algorithm\\Language | C++ | Golang | Java | JavaScript | Python | Rust | C#
