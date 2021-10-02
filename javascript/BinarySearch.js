@@ -1,29 +1,21 @@
-/**
- * Binary Search
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
- */
-const search = (nums, target) => {
-  return helper(nums, target, 0, nums.length - 1);
-};
+const binarySearch = (list, item) => {
+  let low = 0
+  let high = list.length - 1
 
-/**
- * Helper Function
- * @param {number[]} nums
- * @param {number} target
- * @param {number} left - anchor or start
- * @param {number} right - end
- */
-const helper = (nums, target, left, right) => {
-  if (left > right) return -1;
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2)
+    const guess = list[mid]
 
-  const mid = Math.floor((left + right) / 2);
-  const check = nums[mid];
+    if (guess === item) {
+      return mid
+    }
 
-  return {
-    [true]: () => helper(nums, target, mid + 1, right),
-    [check === target]: () => mid,
-    [check > target]: () => helper(nums, target, left, mid - 1)
-  }.true();
-};
+    if (guess > item) {
+      high = mid - 1
+    } else {
+      low = mid + 1
+    }
+  }
+
+  return null
+}
