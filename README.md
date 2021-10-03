@@ -14,6 +14,7 @@
 *Good contributions are always welcome :)*
 > Procedure for contributing:
 - `Fork` this repository
+- `Star` this repository
 - `Clone` it to local desktop
 - Make changes to in local environment
 - `Commit` and `push` the new branch created
