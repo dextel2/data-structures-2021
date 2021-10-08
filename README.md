@@ -21,9 +21,9 @@
 - Apply for `pull request`
 
 # Algorithms and languages used
-  ## C
-    1. Program to delete a node from AVL Tree
-    2. Program to implement EnQueue and DeQueue
-    3. Program to implement Stack
-    4. Program to implement Bubble Sort
-    5. Program to implement findng Maximum Heap
+## C
+1. Program to delete a node from AVL Tree
+2. Program to implement EnQueue and DeQueue
+3. Program to implement Stack
+4. Program to implement Bubble Sort
+5. Program to implement findng Maximum Heap
