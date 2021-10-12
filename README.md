@@ -18,7 +18,7 @@
 3. [Program to implement Stack](https://github.com/dextel2/data-structures-2021/blob/main/c/Stacks.c)
 4. [Program to implement Bubble Sort](https://github.com/dextel2/data-structures-2021/blob/main/c/bubbleSort.c)
 5. [Program to implement findng Maximum Heap](https://github.com/dextel2/data-structures-2021/blob/main/c/maxheap.c)
-
+6. [Program to implement queue](https://github.com/dextel2/data-structures-2021/blob/main/c/queue.c)
 ## C#
 1. [Program to implement Bubble Sort](https://github.com/dextel2/data-structures-2021/blob/main/csharp/BubbleSort.cs)
 
