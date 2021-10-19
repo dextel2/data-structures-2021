@@ -7,11 +7,12 @@ Date Modified: 19-10-2021
 using namespace std;
 
 void swap(int arr[], int i, int j){
-    int temp=arr[i];
+    int temp=arr[i];               
     arr[i]=arr[j];
     arr[j]=temp;
 }
 
+//implementing the dnfSort function using pointers
 void dnfSort(int arr[], int n){
     int low=0;
     int mid=0;
