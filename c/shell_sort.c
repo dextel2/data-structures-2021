@@ -31,12 +31,15 @@ void shell_sort(int a[], int n)
 
 int main()
 {
-
-    int a[] = {9, 3, 6, 8, 5, 2, 0, 7, 4, 1}, n = 10;
+    int n;
+    scanf("%d", &n);
+    
+    int a[n];
+    
     printf("before sorting:");
     for (int i = 0; i < n; i++)
     {
-        printf("%d ", a[i]);
+        scanf("%d ", &a[i]);
     }
 
     shell_sort(a, n);
